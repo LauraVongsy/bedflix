@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logoBed">
+            <img src="images-series/bedflix-logo.png" alt="">
+          </div>
+          <nav>
+            <ul>
+              <li><a class="li-accueil" href="/accueil.html">Accueil</a></li>
+              <li><a href="/films.html">Film</a></li>
+              <li ><a href="/series.html">Série</a></li>
+            </ul>
+          </nav>
+          <div class="search">
+            <input type="text" placeholder="Recherche...">
+          </div>
+          <div class="icons">
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </header>
+    </header>
+    <div class="series-container">
+        <div class="background">
+            <img id="backgroundImg"  alt="">
+        </div>
+        <div class="text">
+            <div class="category">
+                <img src="images-series/b logo.svg" alt="">
+                <p>Accueil</p>
+            </div>
+            <h1>Découvrez les nouveautés!</h1>
+            <p class="first-season">Regardez la 3ème saison de The Witcher!</p>
+            <p>Le sorceleur Geralt, un chasseur de monstres, se bat pour trouver sa place dans un monde <br> où les humains se révèlent plus vicieux que les bêtes. 
+                <br>Il est alors happé dans une mystérieuse toile tissée <br> par les forces luttant pour contrôler le monde.
+            </p>
+        </div>
+        <h1>Les nouveautés</h1>
+        <div class="carousel">
+          
+          <div class="carousel-container">
+            <img class="carousel-img"  alt="">
+            <img class="carousel-img" alt="">
+            <img class="carousel-img" alt="">
+            <img class="carousel-img" alt="">
+            <img class="carousel-img" alt="">
+            <img class="carousel-img" alt="">
+            <img class="carousel-img"  alt="">
+            <img class="carousel-img" alt="">
+          </div>
+          <button class="previous-btn" onclick="sliderScrollLeft()"><</button>
+          <button class="next-btn" onclick="sliderScrollRight()">></button>
+        </div>
+        
+    <footer></footer>
+    <script src="carousel.js"></script>
+</body>
+
+</html>
